@@ -1,6 +1,6 @@
 {  
    "name":"frontendishes",
-   "version":"1.0.0",
+   "version":"0.0.1",
    "private":true,
    "description":"Description (optional)",
    "main":"index.js",
@@ -14,7 +14,7 @@
       "type":"git",
       "url":"git+https://github.com/pstrade/FRONTENDISHES.git"
    },
-   "author":"",
+   "author":"Maksim Talstykh, Alexander Kovalchuk",
    "license":"MIT",
    "bugs":{  
       "url":"https://github.com/pstrade/FRONTENDISHES/issues"
