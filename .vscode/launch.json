@@ -1,0 +1,18 @@
+//You would need to have the latest version of VS Code and VS Code Chrome Debugger Extension installed.
+//https://facebook.github.io/create-react-app/docs/setting-up-your-editor#visual-studio-code
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMapPathOverrides": {
+        "webpack:///src/*": "${webRoot}/*"
+      }
+    }
+  ]
+}
